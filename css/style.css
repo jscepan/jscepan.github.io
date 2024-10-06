@@ -9,6 +9,12 @@ html {
   overflow-x: hidden;
 }
 
+.main-logo{
+  height: 70px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
+
 .download-btn-first {
   background: #f7f7f7;
 }
@@ -246,6 +252,7 @@ html {
 }
 .fh5co-features-outer .col-sm-6 img {
   height: 550px;
+  border-radius: 10px;
 }
 .fh5co-features-outer .sm-6-content {
   margin-top: 250px;
@@ -276,7 +283,7 @@ html {
   width: 35px;
   display: inline-block;
   line-height: 30px;
-  height: 30px;
+  height: 60px;
   text-align: center;
   border-radius: 50%;
   font-size: 14px;
@@ -290,7 +297,7 @@ html {
   color: #fff;
   background: #6ca3ff;
   padding: 18px;
-  width: 35px;
+  width: 65px;
   display: inline-block;
   line-height: 30px;
   height: 30px;
@@ -317,7 +324,7 @@ html {
   letter-spacing: 1px;
   box-sizing: initial;
   position: absolute;
-  top: 140px;
+  top: 20px;
   right: -2px;
   font-weight: 700;
 }
