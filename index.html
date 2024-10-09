@@ -937,11 +937,6 @@
           </p>
         </div>
       </footer>
-      <h1>Dimenzije slika</h1>
-
-      <!-- Polje za odabir fajlova -->
-      <input type="file" id="fileInput" accept="image/*" multiple />
-      <div id="imageDimensions"></div>
     </div>
     <!-- main page wrapper -->
     <script src="js/jquery.min.js"></script>
@@ -962,37 +957,6 @@
         showHideAnimationType: "none",
       });
       lightbox.init();
-    </script>
-    <script>
-      const fileInput = document.getElementById("fileInput");
-      const imageDimensionsContainer =
-        document.getElementById("imageDimensions");
-
-      fileInput.addEventListener("change", handleFileSelect);
-
-      function handleFileSelect(event) {
-        const files = event.target.files;
-        imageDimensionsContainer.innerHTML = ""; // Očisti prethodne rezultate
-
-        Array.from(files).forEach((file) => {
-          const reader = new FileReader();
-
-          reader.onload = function (e) {
-            const img = new Image();
-            img.src = e.target.result;
-
-            img.onload = function () {
-              const imageSize = `${img.width} x ${img.height}`;
-              const div = document.createElement("div");
-              div.className = "image-container";
-              div.innerHTML = `<p><strong>${file.name}</strong>: ${imageSize}</p>`;
-              imageDimensionsContainer.appendChild(div);
-            };
-          };
-
-          reader.readAsDataURL(file); // Učitaj fajl kao base64
-        });
-      }
     </script>
   </body>
 </html>
