@@ -756,6 +756,14 @@ html {
   body {
     overflow-x: hidden;
   }
+  .dropdown-menu {
+    display: none !important;
+  }
+
+  /* Sakrij i strelicu pored Asortiman */
+  #asortimanDropdownArrow {
+    display: none;
+  }
 
   #fh5co-hero-wrapper {
     /* height: 95vh; */
@@ -825,6 +833,14 @@ html {
   }
 }
 @media screen and (max-width: 993px) {
+  .dropdown-menu {
+    display: none !important;
+  }
+
+  /* Sakrij i strelicu pored Asortiman */
+  #asortimanDropdownArrow {
+    display: none;
+  }
   .fh5co-features-grid-columns .col-sm-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 100%;
@@ -925,6 +941,14 @@ html {
   }
 }
 @media screen and (max-width: 800px) {
+  .dropdown-menu {
+    display: none !important;
+  }
+
+  /* Sakrij i strelicu pored Asortiman */
+  #asortimanDropdownArrow {
+    display: none;
+  }
   .fh5co-hero-inner > h1 {
     /* color: #fff;
     font-weight: 300;
@@ -1067,6 +1091,14 @@ html {
   }
 }
 @media screen and (max-width: 520px) {
+  .dropdown-menu {
+    display: none !important;
+  }
+
+  /* Sakrij i strelicu pored Asortiman */
+  #asortimanDropdownArrow {
+    display: none;
+  }
   #fh5co-hero-wrapper {
     /* height: 900px; */
   }
