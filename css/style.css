@@ -240,6 +240,11 @@ html {
   padding: 30px;
   padding-top: 80px;
 }
+
+.fh5co-slider-outer ol {
+  padding: 0 20px;
+}
+
 .fh5co-slider-outer h1 {
   color: #648cff;
   text-transform: uppercase;
