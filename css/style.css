@@ -411,11 +411,11 @@ html {
   margin-top: 80px;
 }
 .fh5co-features-outer .col-sm-6 img {
-  height: 550px;
+  height: 350px;
   border-radius: 10px;
 }
 .fh5co-features-outer .sm-6-content {
-  margin-top: 250px;
+  /* margin-top: 250px; */
   position: relative;
 }
 .fh5co-features-outer .sm-6-content h1 {
